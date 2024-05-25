@@ -733,40 +733,104 @@
       "Root"
     ],
     [
-      "53c2f5ab-0c49-4ad5-9080-5d2518a4324d",
-      "pcb_octohub_hubs"
+      "caba4147-b408-453c-b872-7b2560976868",
+      "chip_upstream"
     ],
     [
-      "6911a9ea-43b3-4dbf-836a-f1b719d8294a",
-      "Plug 1"
+      "e66d53eb-615f-437a-882e-b8806c701694",
+      "hub4-1"
     ],
     [
-      "02256797-9516-42a4-9277-e7f3e5bab8bf",
-      "Plug 2"
+      "0b25244c-a7f8-4769-abac-b126e68550f7",
+      "chip_downstream"
     ],
     [
-      "c9af9cb2-36ba-4583-8646-e8657ce6dfce",
-      "Plug 3"
+      "bdc8eb6c-2da2-4053-9a34-1acdbb5a0d7d",
+      "plug1"
     ],
     [
-      "b3b79240-8e2a-4cd5-a27c-65fc0a113c10",
-      "Plug 4"
+      "6b4e80c6-051f-4222-909d-7439d4af015f",
+      "plug2"
     ],
     [
-      "4741fc6e-a512-4413-ac11-9d84f8c13f5f",
-      "Plug 5"
+      "454cca95-539e-4e78-be4f-81f0a300933e",
+      "plug3"
     ],
     [
-      "d4c5d0f4-fcf7-457a-9da7-615bc1c3b908",
-      "Plug 6"
+      "c83d427d-ba2b-4981-a26a-58171b2743bd",
+      "plug4"
     ],
     [
-      "604f73e0-eb71-43cd-b1fc-1d3a677a4264",
-      "Plug 7"
+      "c7836c6e-0f12-404d-b7c9-aaa6fc1f8f17",
+      "hub4-2"
     ],
     [
-      "6756184f-5462-42d8-8359-52a2afe36fab",
-      "Plug 8"
+      "0b25244c-a7f8-4769-abac-b126e68550f7",
+      "chip_downstream"
+    ],
+    [
+      "454cca95-539e-4e78-be4f-81f0a300933e",
+      "plug3"
+    ],
+    [
+      "6b4e80c6-051f-4222-909d-7439d4af015f",
+      "plug2"
+    ],
+    [
+      "bdc8eb6c-2da2-4053-9a34-1acdbb5a0d7d",
+      "plug1"
+    ],
+    [
+      "c83d427d-ba2b-4981-a26a-58171b2743bd",
+      "plug4"
+    ],
+    [
+      "0bfc7008-4835-432b-a39f-09e1d389158d",
+      "hub4-3"
+    ],
+    [
+      "0b25244c-a7f8-4769-abac-b126e68550f7",
+      "chip_downstream"
+    ],
+    [
+      "454cca95-539e-4e78-be4f-81f0a300933e",
+      "plug3"
+    ],
+    [
+      "6b4e80c6-051f-4222-909d-7439d4af015f",
+      "plug2"
+    ],
+    [
+      "bdc8eb6c-2da2-4053-9a34-1acdbb5a0d7d",
+      "plug1"
+    ],
+    [
+      "c83d427d-ba2b-4981-a26a-58171b2743bd",
+      "plug4"
+    ],
+    [
+      "72600ea1-de5b-448d-8b44-46c00e5d107b",
+      "hub4-4"
+    ],
+    [
+      "0b25244c-a7f8-4769-abac-b126e68550f7",
+      "chip_downstream"
+    ],
+    [
+      "454cca95-539e-4e78-be4f-81f0a300933e",
+      "plug3"
+    ],
+    [
+      "6b4e80c6-051f-4222-909d-7439d4af015f",
+      "plug2"
+    ],
+    [
+      "bdc8eb6c-2da2-4053-9a34-1acdbb5a0d7d",
+      "plug1"
+    ],
+    [
+      "c83d427d-ba2b-4981-a26a-58171b2743bd",
+      "plug4"
     ]
   ],
   "text_variables": {}

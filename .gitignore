@@ -3,3 +3,9 @@ octohub_kicad_v0.1/*.bak
 octohub_kicad_v0.1/replicate_layout.log
 octohub_kicad_v0.1/fp-info-cache
 octohub_kicad_v0.1/production/backups/*
+
+octohub16_kicad_v0.1/pcb_octohub-backups/*
+octohub16_kicad_v0.1/*.bak
+octohub16_kicad_v0.1/replicate_layout.log
+octohub16_kicad_v0.1/fp-info-cache
+octohub16_kicad_v0.1/production/backups/*
