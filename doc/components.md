@@ -25,3 +25,11 @@ Crystal: Parallel resonant, fundamental mode, 24 MHz 350 ppm
 https://jlcpcb.com/partdetail/Yxc-X322524MOB4SI/C70590
 
 `24MHz Surface mount crystal oscillator 12pF ±10ppm ±20ppm SMD3225-4P Crystals ROHS`
+
+## USB Connector
+
+* C456015: Only 2 supporting pads. No kicad footprint
+  * 20k Stock, USD 0.03
+
+* https://jlcpcb.com/partdetail/Molex-1050570001/C586225
+  * 18 Stock, USD 0.6
