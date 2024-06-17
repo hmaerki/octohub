@@ -1,5 +1,5 @@
-octohub_kicad_v0.1/pcb_octohub-backups/*
-octohub_kicad_v0.1/*.bak
-octohub_kicad_v0.1/replicate_layout.log
-octohub_kicad_v0.1/fp-info-cache
-octohub_kicad_v0.1/production/backups/*
+octohub_kicad_v*/pcb_octohub-backups/*
+octohub_kicad_v*/*.bak
+octohub_kicad_v*/replicate_layout.log
+octohub_kicad_v*/fp-info-cache
+octohub_kicad_v*/production/backups/*

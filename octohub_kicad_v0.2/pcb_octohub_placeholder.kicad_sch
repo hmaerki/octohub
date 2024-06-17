@@ -1,0 +1,15 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d7bd7fb9-4a31-4087-a5db-59d795c08cc7")
+	(paper "A4")
+	(title_block
+		(title "Octoprobe octohub")
+		(date "2024-06-18")
+		(rev "0.2")
+		(company "Hans Märki, Märki Informatik")
+		(comment 1 "The MIT License (MIT)")
+	)
+	(lib_symbols)
+)

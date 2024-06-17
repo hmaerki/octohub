@@ -1,0 +1,817 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ef9bc8f6-0d11-4533-8464-db6b39d42442")
+	(paper "A4")
+	(title_block
+		(title "Octoprobe octohub")
+		(date "2024-06-18")
+		(rev "0.2")
+		(company "Hans Märki, Märki Informatik")
+		(comment 1 "The MIT License (MIT)")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 58.42 40.64) (xy 64.77 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1111dd62-2ebd-4b11-abbe-30e1d9750ee1")
+	)
+	(wire
+		(pts
+			(xy 95.25 95.25) (xy 107.95 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50c19e3d-bb89-4f83-88e9-a5b0c7221316")
+	)
+	(wire
+		(pts
+			(xy 95.25 74.93) (xy 107.95 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a501f92-3021-4029-b9bd-9cbe46fe2c30")
+	)
+	(wire
+		(pts
+			(xy 95.25 77.47) (xy 107.95 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d8191c4-3a21-4bfa-9fe9-75f4a97e0f20")
+	)
+	(wire
+		(pts
+			(xy 95.25 62.23) (xy 107.95 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8154042f-e0d9-41ee-a7c7-a92a922c41e8")
+	)
+	(wire
+		(pts
+			(xy 95.25 80.01) (xy 107.95 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88bd2a71-0b7c-43eb-9020-6bbee0178180")
+	)
+	(wire
+		(pts
+			(xy 95.25 97.79) (xy 107.95 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aceb350-628b-475d-bffc-07c9e0db7f3a")
+	)
+	(wire
+		(pts
+			(xy 58.42 43.18) (xy 64.77 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e320752-436d-41b9-b66c-b5cbcb326cf1")
+	)
+	(wire
+		(pts
+			(xy 95.25 41.91) (xy 107.95 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a43a066d-bb38-4079-a600-f1a84e0ac813")
+	)
+	(wire
+		(pts
+			(xy 95.25 57.15) (xy 107.95 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa15f09f-d984-4173-9423-c313a3796bb8")
+	)
+	(wire
+		(pts
+			(xy 95.25 44.45) (xy 107.95 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bff04930-2c2c-41e2-bbe3-44c347a794a4")
+	)
+	(wire
+		(pts
+			(xy 95.25 39.37) (xy 107.95 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1f00f15-b598-4319-a428-bab58cf10f65")
+	)
+	(wire
+		(pts
+			(xy 95.25 59.69) (xy 107.95 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea06b703-7c4b-425d-a492-3eb604901412")
+	)
+	(wire
+		(pts
+			(xy 95.25 92.71) (xy 107.95 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd2bebf7-7ef5-4d8a-a8ca-bbb55e2f4ae9")
+	)
+	(hierarchical_label "USB_D_M"
+		(shape input)
+		(at 58.42 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0186f70f-24fe-4c28-b69d-97579f79943d")
+	)
+	(hierarchical_label "USB_D_P"
+		(shape input)
+		(at 58.42 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "13c9db4b-ed4e-45d1-84f6-b82695d5c98d")
+	)
+	(sheet
+		(at 107.95 36.83)
+		(size 22.86 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0477ed89-4a5f-446e-abf8-3eb100721172")
+		(property "Sheetname" "plug_A"
+			(at 107.95 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pcb_octohub_plug.kicad_sch"
+			(at 107.95 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Pluglabel" "${PluglabelA}"
+			(at 107.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "PORT_DM" input
+			(at 107.95 39.37 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e8f13356-1020-4a40-a686-03426f7c596f")
+		)
+		(pin "PORT_DP" input
+			(at 107.95 41.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e86745a3-2a42-42f1-88ac-08a39fefaae9")
+		)
+		(pin "PRTPWR" input
+			(at 107.95 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1be0d8b1-62f4-4d97-9fcc-577426684895")
+		)
+		(instances
+			(project "pcb_octohub"
+				(path "/71f22cdd-d2e8-428f-a493-ba818011117e/cce2caaa-8f81-464b-90dc-a65beb95ce6e"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 107.95 72.39)
+		(size 22.86 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0a192503-5819-4b2f-8a36-53a2aa405388")
+		(property "Sheetname" "plug_C"
+			(at 107.95 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pcb_octohub_plug.kicad_sch"
+			(at 107.95 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Pluglabel" "${PluglabelC}"
+			(at 107.95 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "PORT_DM" input
+			(at 107.95 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "53d1d760-8ac7-4241-b0db-65ff4b5ce4a4")
+		)
+		(pin "PORT_DP" input
+			(at 107.95 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "06edd948-63a5-4b58-b311-42a8b3fcd7f2")
+		)
+		(pin "PRTPWR" input
+			(at 107.95 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "22900f00-8da0-421a-abed-220b24f7ed53")
+		)
+		(instances
+			(project "pcb_octohub"
+				(path "/71f22cdd-d2e8-428f-a493-ba818011117e/cce2caaa-8f81-464b-90dc-a65beb95ce6e"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.04 124.46)
+		(size 39.37 8.89)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "432ac23f-fee3-4bc8-8025-72672e8e70a9")
+		(property "Sheetname" "placeholder1"
+			(at 66.04 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pcb_octohub_placeholder.kicad_sch"
+			(at 66.04 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pcb_octohub"
+				(path "/71f22cdd-d2e8-428f-a493-ba818011117e/cce2caaa-8f81-464b-90dc-a65beb95ce6e"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 107.95 90.17)
+		(size 22.86 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "506f8ecb-25c5-4bd4-8ed7-aae7609dc006")
+		(property "Sheetname" "plug_D"
+			(at 107.95 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pcb_octohub_plug.kicad_sch"
+			(at 107.95 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Pluglabel" "${PluglabelD}"
+			(at 107.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "PORT_DM" input
+			(at 107.95 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7b18f34d-a82b-475a-a82d-5a1bf7854599")
+		)
+		(pin "PORT_DP" input
+			(at 107.95 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "029f5372-bba2-4479-b609-a736b19ddc39")
+		)
+		(pin "PRTPWR" input
+			(at 107.95 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "648da7e2-2af0-4362-bf94-22fbea41ad8a")
+		)
+		(instances
+			(project "pcb_octohub"
+				(path "/71f22cdd-d2e8-428f-a493-ba818011117e/cce2caaa-8f81-464b-90dc-a65beb95ce6e"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.04 139.7)
+		(size 39.37 8.89)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5c1a6048-112a-4436-94b5-96d586702736")
+		(property "Sheetname" "placeholder2"
+			(at 66.04 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pcb_octohub_placeholder.kicad_sch"
+			(at 66.04 149.1746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pcb_octohub"
+				(path "/71f22cdd-d2e8-428f-a493-ba818011117e/cce2caaa-8f81-464b-90dc-a65beb95ce6e"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 107.95 54.61)
+		(size 22.86 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "76c3cef3-075e-4751-bf91-3e2aa08b7634")
+		(property "Sheetname" "plug_B"
+			(at 107.95 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pcb_octohub_plug.kicad_sch"
+			(at 107.95 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Pluglabel" "${PluglabelB}"
+			(at 107.95 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "PORT_DM" input
+			(at 107.95 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d8e89170-fd7a-4038-8509-133bcddc0e20")
+		)
+		(pin "PORT_DP" input
+			(at 107.95 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4f5f32d5-ea75-4563-bd99-1e21351b8f35")
+		)
+		(pin "PRTPWR" input
+			(at 107.95 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3e3570d1-81c3-4d2f-883d-a64c75db6ee9")
+		)
+		(instances
+			(project "pcb_octohub"
+				(path "/71f22cdd-d2e8-428f-a493-ba818011117e/cce2caaa-8f81-464b-90dc-a65beb95ce6e"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 64.77 36.83)
+		(size 30.48 66.04)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "905a4e11-6f14-4a1c-9cfb-b7581f2e2845")
+		(property "Sheetname" "chip_downstream"
+			(at 64.77 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pcb_octohub_chip.kicad_sch"
+			(at 64.77 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_D_M" input
+			(at 64.77 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0bad2fc4-da4b-4a41-97da-b41eabc94c4f")
+		)
+		(pin "USB_D_P" input
+			(at 64.77 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6ce439b3-2fe5-43e0-a321-48c7e686b0d3")
+		)
+		(pin "PRT_D_M1" output
+			(at 95.25 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "57828b3b-f6ab-4565-8e3c-e0648c3ea9f5")
+		)
+		(pin "PRT_D_M2" output
+			(at 95.25 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "65f288b8-0cd1-41d2-906b-ba02738794f6")
+		)
+		(pin "PRT_PWR1" output
+			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "35dfaa24-3c1a-4e93-8fb7-f8cb58698eb7")
+		)
+		(pin "PRT_D_P1" output
+			(at 95.25 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "899c0c54-cfcc-4d0a-994d-1c9cc2f6f9f1")
+		)
+		(pin "PRT_D_P2" output
+			(at 95.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d832ed98-6df8-4fa0-be78-9e6bfc7a0b03")
+		)
+		(pin "PRT_PWR2" output
+			(at 95.25 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b15e9950-0681-4c6d-b9b6-6bc17be3c88b")
+		)
+		(pin "PRT_D_P3" output
+			(at 95.25 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d83ac5ed-bfe6-46e6-967a-d4b64f5137c5")
+		)
+		(pin "PRT_PWR3" output
+			(at 95.25 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "008d3215-776d-48b1-a868-c6bd45baee2d")
+		)
+		(pin "PRT_D_M3" output
+			(at 95.25 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bf078edd-9820-4b81-b5a1-7f949439ac50")
+		)
+		(pin "PRT_D_M4" output
+			(at 95.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4c387168-6260-4faa-be33-a4c66bb333ab")
+		)
+		(pin "PRT_D_P4" output
+			(at 95.25 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e656a7f8-07d2-4af0-9890-512bbe0a6dc4")
+		)
+		(pin "PRT_PWR4" output
+			(at 95.25 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1ee1f58f-67da-42c6-afc3-d2e6711a01f1")
+		)
+		(instances
+			(project "pcb_octohub"
+				(path "/71f22cdd-d2e8-428f-a493-ba818011117e/cce2caaa-8f81-464b-90dc-a65beb95ce6e"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.04 156.21)
+		(size 39.37 8.89)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ce04ce3d-b274-4ff4-9e16-5676d240d97a")
+		(property "Sheetname" "placeholder3"
+			(at 66.04 155.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pcb_octohub_placeholder.kicad_sch"
+			(at 66.04 165.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pcb_octohub"
+				(path "/71f22cdd-d2e8-428f-a493-ba818011117e/cce2caaa-8f81-464b-90dc-a65beb95ce6e"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.04 171.45)
+		(size 39.37 8.89)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e0d4c4ef-a528-4e38-99b5-bcf348fa20d8")
+		(property "Sheetname" "placeholder4"
+			(at 66.04 170.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pcb_octohub_placeholder.kicad_sch"
+			(at 66.04 180.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pcb_octohub"
+				(path "/71f22cdd-d2e8-428f-a493-ba818011117e/cce2caaa-8f81-464b-90dc-a65beb95ce6e"
+					(page "19")
+				)
+			)
+		)
+	)
+)

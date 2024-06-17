@@ -1,0 +1,2 @@
+https://github.com/Gekkio/gekkio-kicad-libs/blob/main/Gekkio_Power_Management.kicad_sym
+
