@@ -40,3 +40,10 @@ JLC search: `solid state relay MOS supsic`
 | C393898 | 1.9 | 60V 1A 250m | TOSHIBA TLP3122(TP,F) | https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1912111437_TOSHIBA-TLP3122-TP-F_C393898.pdf |
 | C19271987 | 0.6 | 60V 1.8A 70m | SUPSiC GAQY212GHA | https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403241735_SUPSiC-GAQY212GHA_C19271987.pdf |
 | C192C743510471987 | 0.74 | 40V 2.5A 60m | SUPSiC GAQY211G2S | https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308151358_SUPSiC-GAQY211G2S_C7435104.pdf |
+
+
+## Other open source hub. USB2, tested with uhubctl.
+
+https://oshwlab.com/iamseer/ch335-hub
+
+CH335F, jlc C5137013, USD 1.2

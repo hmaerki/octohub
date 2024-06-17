@@ -27,5 +27,7 @@ BOM: https://cdn.hackaday.io/files/1651087063980672/BOM.xlsx
 * (BOM)[https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/BoardDesignFiles/EVB-USB2514BC_A3-Bom.xls]
 
 
-### power distribution switch
+### Seeed - reTerminal
 
+* (Intro)[https://wiki.seeedstudio.com/reTerminal_Intro]
+* (Schematics)[https://files.seeedstudio.com/wiki/ReTerminal/reTerminal-v1.3_SCH.pdf]
