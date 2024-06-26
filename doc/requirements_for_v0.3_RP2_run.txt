@@ -1,0 +1,138 @@
+RP2 SEEED
+
+[   97.388628] usb 3-1: new full-speed USB device number 5 using xhci_hcd
+[   97.517740] usb 3-1: New USB device found, idVendor=2e8a, idProduct=0005, bcdDevice= 1.00
+[   97.517780] usb 3-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[   97.517784] usb 3-1: Product: Board in FS mode
+[   97.517787] usb 3-1: Manufacturer: MicroPython
+[   97.517790] usb 3-1: SerialNumber: 4150325537323318
+[   97.551115] cdc_acm 3-1:1.0: ttyACM0: USB ACM device
+[   97.551186] usbcore: registered new interface driver cdc_acm
+[   97.551192] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+
+
+root@maerki-ideapad-320:/tmp# lsusb -tv
+/:  Bus 001.Port 001: Dev 001, Class=root_hub, Driver=xhci_hcd/1p, 480M
+    ID 1d6b:0002 Linux Foundation 2.0 root hub
+/:  Bus 002.Port 001: Dev 001, Class=root_hub, Driver=xhci_hcd/4p, 10000M
+    ID 1d6b:0003 Linux Foundation 3.0 root hub
+/:  Bus 003.Port 001: Dev 001, Class=root_hub, Driver=xhci_hcd/12p, 480M
+    ID 1d6b:0002 Linux Foundation 2.0 root hub
+    |__ Port 001: Dev 005, If 0, Class=Communications, Driver=cdc_acm, 12M    <===============
+        ID 2e8a:0005  
+    |__ Port 001: Dev 005, If 1, Class=CDC Data, Driver=cdc_acm, 12M
+        ID 2e8a:0005  
+    |__ Port 003: Dev 002, If 0, Class=Vendor Specific Class, Driver=[none], 12M
+        ID 06cb:00f9 Synaptics, Inc. 
+    |__ Port 004: Dev 003, If 0, Class=Video, Driver=uvcvideo, 480M
+        ID 13d3:5405 IMC Networks 
+    |__ Port 004: Dev 003, If 1, Class=Video, Driver=uvcvideo, 480M
+        ID 13d3:5405 IMC Networks 
+    |__ Port 004: Dev 003, If 2, Class=Video, Driver=uvcvideo, 480M
+        ID 13d3:5405 IMC Networks 
+    |__ Port 004: Dev 003, If 3, Class=Video, Driver=uvcvideo, 480M
+        ID 13d3:5405 IMC Networks 
+    |__ Port 004: Dev 003, If 4, Class=Application Specific Interface, Driver=[none], 480M
+        ID 13d3:5405 IMC Networks 
+/:  Bus 004.Port 001: Dev 001, Class=root_hub, Driver=xhci_hcd/4p, 10000M
+    ID 1d6b:0003 Linux Foundation 3.0 root hub
+
+
+Bus 003 Device 005: ID 2e8a:0005 MicroPython Board in FS mode
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               2.00
+  bDeviceClass          239 Miscellaneous Device
+  bDeviceSubClass         2 [unknown]
+  bDeviceProtocol         1 Interface Association
+  bMaxPacketSize0        64
+  idVendor           0x2e8a MicroPython
+  idProduct          0x0005 Board in FS mode
+  bcdDevice            1.00
+  iManufacturer           1 MicroPython
+  iProduct                2 Board in FS mode
+  iSerial                 3 4150325537323318
+  bNumConfigurations      1
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength       0x004b
+    bNumInterfaces          2
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0x80
+      (Bus Powered)
+    MaxPower              250mA
+    Interface Association:
+      bLength                 8
+      bDescriptorType        11
+      bFirstInterface         0
+      bInterfaceCount         2
+      bFunctionClass          2 Communications
+      bFunctionSubClass       2 Abstract (modem)
+      bFunctionProtocol       0 
+      iFunction               0 
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           1
+      bInterfaceClass         2 Communications
+      bInterfaceSubClass      2 Abstract (modem)
+      bInterfaceProtocol      0 
+      iInterface              4 Board CDC
+      CDC Header:
+        bcdCDC               1.20
+      CDC Call Management:
+        bmCapabilities       0x00
+        bDataInterface          1
+      CDC ACM:
+        bmCapabilities       0x02
+          line coding and serial state
+      CDC Union:
+        bMasterInterface        0
+        bSlaveInterface         1 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            3
+          Transfer Type            Interrupt
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0008  1x 8 bytes
+        bInterval              16
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        1
+      bAlternateSetting       0
+      bNumEndpoints           2
+      bInterfaceClass        10 CDC Data
+      bInterfaceSubClass      0 [unknown]
+      bInterfaceProtocol      0 
+      iInterface              0 
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x02  EP 2 OUT
+        bmAttributes            2
+          Transfer Type            Bulk
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0040  1x 64 bytes
+        bInterval               0
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x82  EP 2 IN
+        bmAttributes            2
+          Transfer Type            Bulk
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0040  1x 64 bytes
+        bInterval               0
+Device Status:     0x0000
+  (Bus Powered)

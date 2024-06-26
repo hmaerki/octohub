@@ -36,7 +36,9 @@ BOM: https://cdn.hackaday.io/files/1651087063980672/BOM.xlsx
 * (Intro)[https://wiki.seeedstudio.com/reTerminal_Intro]
 * (Schematics)[https://files.seeedstudio.com/wiki/ReTerminal/reTerminal-v1.3_SCH.pdf]
 
+### PcbWay
 
+https://www.pcbway.com/project/shareproject/USB2514_HUB.html
 
 ## USB
 
